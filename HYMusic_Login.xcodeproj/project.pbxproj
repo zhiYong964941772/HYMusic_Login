@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F0775E08644F9510B7B7234 /* Pods_HYMusic_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3019209CFBA6CD2537893D7F /* Pods_HYMusic_Login.framework */; };
+		9263907023C82115001CCB03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263906F23C82115001CCB03 /* AppDelegate.m */; };
+		9263907323C82115001CCB03 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263907223C82115001CCB03 /* SceneDelegate.m */; };
+		9263907623C82115001CCB03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263907523C82115001CCB03 /* ViewController.m */; };
+		9263907923C82115001CCB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263907723C82115001CCB03 /* Main.storyboard */; };
+		9263907B23C82115001CCB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9263907A23C82115001CCB03 /* Assets.xcassets */; };
+		9263907E23C82115001CCB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263907C23C82115001CCB03 /* LaunchScreen.storyboard */; };
+		9263908123C82115001CCB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263908023C82115001CCB03 /* main.m */; };
+		926390B923C832E9001CCB03 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390B823C832E9001CCB03 /* AViewController.m */; };
+		926390BC23C85385001CCB03 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390BB23C85385001CCB03 /* Target_A.m */; };
+		926390C423C85A0D001CCB03 /* CTMediator+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390C323C85A0D001CCB03 /* CTMediator+Login.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3019209CFBA6CD2537893D7F /* Pods_HYMusic_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYMusic_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9263906B23C82115001CCB03 /* HYMusic_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMusic_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9263906E23C82115001CCB03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9263906F23C82115001CCB03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9263907123C82115001CCB03 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9263907223C82115001CCB03 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9263907423C82115001CCB03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9263907523C82115001CCB03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9263907823C82115001CCB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9263907A23C82115001CCB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9263907D23C82115001CCB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9263907F23C82115001CCB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9263908023C82115001CCB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926390B723C832E9001CCB03 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		926390B823C832E9001CCB03 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		926390BA23C85385001CCB03 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		926390BB23C85385001CCB03 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		926390C223C85A0D001CCB03 /* CTMediator+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Login.h"; sourceTree = "<group>"; };
+		926390C323C85A0D001CCB03 /* CTMediator+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Login.m"; sourceTree = "<group>"; };
+		BC3BD629DF56688F975F0D8C /* Pods-HYMusic_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMusic_Login.debug.xcconfig"; path = "Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA996DE311BBA1E8FBACD7C /* Pods-HYMusic_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMusic_Login.release.xcconfig"; path = "Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9263906823C82115001CCB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0775E08644F9510B7B7234 /* Pods_HYMusic_Login.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9263906223C82115001CCB03 = {
+			isa = PBXGroup;
+			children = (
+				9263906D23C82115001CCB03 /* HYMusic_Login */,
+				9263906C23C82115001CCB03 /* Products */,
+				FDCB49567070EFFBB5E54CEA /* Pods */,
+				C800745F7570E8AE064FA03E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9263906C23C82115001CCB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9263906B23C82115001CCB03 /* HYMusic_Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9263906D23C82115001CCB03 /* HYMusic_Login */ = {
+			isa = PBXGroup;
+			children = (
+				926390B223C82F7D001CCB03 /* HYMusic_Login */,
+				9263906E23C82115001CCB03 /* AppDelegate.h */,
+				9263906F23C82115001CCB03 /* AppDelegate.m */,
+				9263907123C82115001CCB03 /* SceneDelegate.h */,
+				9263907223C82115001CCB03 /* SceneDelegate.m */,
+				9263907423C82115001CCB03 /* ViewController.h */,
+				9263907523C82115001CCB03 /* ViewController.m */,
+				9263907723C82115001CCB03 /* Main.storyboard */,
+				9263907A23C82115001CCB03 /* Assets.xcassets */,
+				9263907C23C82115001CCB03 /* LaunchScreen.storyboard */,
+				9263907F23C82115001CCB03 /* Info.plist */,
+				9263908023C82115001CCB03 /* main.m */,
+			);
+			path = HYMusic_Login;
+			sourceTree = "<group>";
+		};
+		926390B223C82F7D001CCB03 /* HYMusic_Login */ = {
+			isa = PBXGroup;
+			children = (
+				926390C123C85A0D001CCB03 /* Category */,
+				926390B323C830FC001CCB03 /* Targets */,
+				926390B723C832E9001CCB03 /* AViewController.h */,
+				926390B823C832E9001CCB03 /* AViewController.m */,
+			);
+			path = HYMusic_Login;
+			sourceTree = "<group>";
+		};
+		926390B323C830FC001CCB03 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				926390BA23C85385001CCB03 /* Target_A.h */,
+				926390BB23C85385001CCB03 /* Target_A.m */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		926390C123C85A0D001CCB03 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				926390C223C85A0D001CCB03 /* CTMediator+Login.h */,
+				926390C323C85A0D001CCB03 /* CTMediator+Login.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C800745F7570E8AE064FA03E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3019209CFBA6CD2537893D7F /* Pods_HYMusic_Login.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCB49567070EFFBB5E54CEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC3BD629DF56688F975F0D8C /* Pods-HYMusic_Login.debug.xcconfig */,
+				FDA996DE311BBA1E8FBACD7C /* Pods-HYMusic_Login.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9263906A23C82115001CCB03 /* HYMusic_Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9263908423C82115001CCB03 /* Build configuration list for PBXNativeTarget "HYMusic_Login" */;
+			buildPhases = (
+				890B279CC8FE86A7721C1E1A /* [CP] Check Pods Manifest.lock */,
+				9263906723C82115001CCB03 /* Sources */,
+				9263906823C82115001CCB03 /* Frameworks */,
+				9263906923C82115001CCB03 /* Resources */,
+				F874DE180BC080F782821336 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYMusic_Login;
+			productName = HYMusic_Login;
+			productReference = 9263906B23C82115001CCB03 /* HYMusic_Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9263906323C82115001CCB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = evan;
+				TargetAttributes = {
+					9263906A23C82115001CCB03 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 9263906623C82115001CCB03 /* Build configuration list for PBXProject "HYMusic_Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9263906223C82115001CCB03;
+			productRefGroup = 9263906C23C82115001CCB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9263906A23C82115001CCB03 /* HYMusic_Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9263906923C82115001CCB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9263907E23C82115001CCB03 /* LaunchScreen.storyboard in Resources */,
+				9263907B23C82115001CCB03 /* Assets.xcassets in Resources */,
+				9263907923C82115001CCB03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		890B279CC8FE86A7721C1E1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYMusic_Login-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F874DE180BC080F782821336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9263906723C82115001CCB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926390B923C832E9001CCB03 /* AViewController.m in Sources */,
+				9263907623C82115001CCB03 /* ViewController.m in Sources */,
+				9263907023C82115001CCB03 /* AppDelegate.m in Sources */,
+				9263908123C82115001CCB03 /* main.m in Sources */,
+				926390BC23C85385001CCB03 /* Target_A.m in Sources */,
+				9263907323C82115001CCB03 /* SceneDelegate.m in Sources */,
+				926390C423C85A0D001CCB03 /* CTMediator+Login.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9263907723C82115001CCB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9263907823C82115001CCB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9263907C23C82115001CCB03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9263907D23C82115001CCB03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9263908223C82115001CCB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9263908323C82115001CCB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9263908523C82115001CCB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3BD629DF56688F975F0D8C /* Pods-HYMusic_Login.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X26ZD3P2LV;
+				INFOPLIST_FILE = HYMusic_Login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "evan.HYMusic-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9263908623C82115001CCB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA996DE311BBA1E8FBACD7C /* Pods-HYMusic_Login.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X26ZD3P2LV;
+				INFOPLIST_FILE = HYMusic_Login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "evan.HYMusic-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9263906623C82115001CCB03 /* Build configuration list for PBXProject "HYMusic_Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9263908223C82115001CCB03 /* Debug */,
+				9263908323C82115001CCB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9263908423C82115001CCB03 /* Build configuration list for PBXNativeTarget "HYMusic_Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9263908523C82115001CCB03 /* Debug */,
+				9263908623C82115001CCB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9263906323C82115001CCB03 /* Project object */;
+}
