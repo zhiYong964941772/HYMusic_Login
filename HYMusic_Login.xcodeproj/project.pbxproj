@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -96,6 +96,9 @@
 		926390B223C82F7D001CCB03 /* HYMusic_Login */ = {
 			isa = PBXGroup;
 			children = (
+				926390C623C87431001CCB03 /* LoginAppContext */,
+				926390C723C87431001CCB03 /* LoginController */,
+				926390C523C87431001CCB03 /* LoginServer */,
 				926390C123C85A0D001CCB03 /* Category */,
 				926390B323C830FC001CCB03 /* Targets */,
 				926390B723C832E9001CCB03 /* AViewController.h */,
@@ -120,6 +123,27 @@
 				926390C323C85A0D001CCB03 /* CTMediator+Login.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		926390C523C87431001CCB03 /* LoginServer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginServer;
+			sourceTree = "<group>";
+		};
+		926390C623C87431001CCB03 /* LoginAppContext */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginAppContext;
+			sourceTree = "<group>";
+		};
+		926390C723C87431001CCB03 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginController;
 			sourceTree = "<group>";
 		};
 		C800745F7570E8AE064FA03E /* Frameworks */ = {
