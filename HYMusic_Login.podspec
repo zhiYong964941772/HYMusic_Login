@@ -108,7 +108,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
     s.resource_bundles = {
-      "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib,xcassets}"]
+      "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib}"]
     }
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -135,8 +135,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "CTMediator"
   s.dependency "WHToast"
-  s.dependency "ZYNetworking"
   s.dependency "AFNetworking"
+  s.dependency "ZYNetworking"
 
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }

@@ -137,6 +137,7 @@
 			children = (
 				9263906D23C82115001CCB03 /* HYMusic_Login */,
 				9263906C23C82115001CCB03 /* Products */,
+				9263907A23C82115001CCB03 /* Assets.xcassets */,
 				FDCB49567070EFFBB5E54CEA /* Pods */,
 				C800745F7570E8AE064FA03E /* Frameworks */,
 			);
@@ -268,7 +269,6 @@
 				926B98F92403812F0009A33B /* resetView.xib */,
 				926B98F424037CD80009A33B /* registerView.xib */,
 				926B992324061CC90009A33B /* ChangePassword.xib */,
-				9263907A23C82115001CCB03 /* Assets.xcassets */,
 			);
 			path = LoginAssets;
 			sourceTree = "<group>";
