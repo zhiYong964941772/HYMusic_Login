@@ -9,5 +9,6 @@ use_frameworks!
 target 'HYMusic_Login' do
 pod "CTMediator"
 pod "AFNetworking"
-pod "Masonry"
+pod "ZYNetworking"
+pod "WHToast"
 end

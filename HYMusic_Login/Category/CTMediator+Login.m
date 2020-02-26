@@ -10,7 +10,7 @@
 
 
 @implementation CTMediator (Login)
-- (UIViewController *)A_aViewController{
-    return [self performTarget:@"A" action:@"viewController" params:nil shouldCacheTarget:false];
+- (UIViewController *)showLoginViewController{
+    return [self performTarget:@"Login" action:@"viewController" params:nil shouldCacheTarget:false];
 }
 @end

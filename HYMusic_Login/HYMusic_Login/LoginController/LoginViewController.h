@@ -1,8 +1,8 @@
 //
-//  AViewController.h
+//  LoginViewController.h
 //  HYMusic_Login
 //
-//  Created by evan on 2020/1/10.
+//  Created by evan on 2020/1/19.
 //  Copyright © 2020 evan. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AViewController : UIViewController
+@interface LoginViewController : UIViewController
 
 @end
 

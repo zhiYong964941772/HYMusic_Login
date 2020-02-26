@@ -15,9 +15,39 @@
 		9263907B23C82115001CCB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9263907A23C82115001CCB03 /* Assets.xcassets */; };
 		9263907E23C82115001CCB03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9263907C23C82115001CCB03 /* LaunchScreen.storyboard */; };
 		9263908123C82115001CCB03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263908023C82115001CCB03 /* main.m */; };
-		926390B923C832E9001CCB03 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390B823C832E9001CCB03 /* AViewController.m */; };
-		926390BC23C85385001CCB03 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390BB23C85385001CCB03 /* Target_A.m */; };
 		926390C423C85A0D001CCB03 /* CTMediator+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 926390C323C85A0D001CCB03 /* CTMediator+Login.m */; };
+		926B98CC23D450880009A33B /* Target_ZYAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98CB23D450870009A33B /* Target_ZYAppContext.m */; };
+		926B98CF23D450F10009A33B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98CE23D450F10009A33B /* LoginViewController.m */; };
+		926B98DD23D463870009A33B /* 手机号.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D323D463860009A33B /* 手机号.png */; };
+		926B98DE23D463870009A33B /* 验证码按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D423D463860009A33B /* 验证码按钮.png */; };
+		926B98DF23D463870009A33B /* QQ登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D523D463870009A33B /* QQ登录.png */; };
+		926B98E023D463870009A33B /* 微信登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D623D463870009A33B /* 微信登录.png */; };
+		926B98E123D463870009A33B /* 隐藏密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D723D463870009A33B /* 隐藏密码.png */; };
+		926B98E223D463870009A33B /* 展示密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D823D463870009A33B /* 展示密码.png */; };
+		926B98E323D463870009A33B /* 验证码.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98D923D463870009A33B /* 验证码.png */; };
+		926B98E423D463870009A33B /* 密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98DA23D463870009A33B /* 密码.png */; };
+		926B98E523D463870009A33B /* 登陆按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98DB23D463870009A33B /* 登陆按钮.png */; };
+		926B98E623D463870009A33B /* 微博登录.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98DC23D463870009A33B /* 微博登录.png */; };
+		926B98E923D463D80009A33B /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98E823D463D80009A33B /* LoginView.m */; };
+		926B98EB24036D200009A33B /* HYLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926B98EA24036D200009A33B /* HYLoginView.xib */; };
+		926B98ED24036E570009A33B /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 926B98EC24036E570009A33B /* loginIcon.png */; };
+		926B98F324037BAA0009A33B /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98F224037BAA0009A33B /* RegisterView.m */; };
+		926B98F524037CD80009A33B /* registerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926B98F424037CD80009A33B /* registerView.xib */; };
+		926B98F8240381230009A33B /* resetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98F7240381230009A33B /* resetView.m */; };
+		926B98FA2403812F0009A33B /* resetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926B98F92403812F0009A33B /* resetView.xib */; };
+		926B98FD2403A0CE0009A33B /* Target_Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98FC2403A0CE0009A33B /* Target_Login.m */; };
+		926B99002403BD380009A33B /* LoginViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B98FF2403BD380009A33B /* LoginViewFactory.m */; };
+		926B99042404D7210009A33B /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B99032404D7210009A33B /* LoginService.m */; };
+		926B990824050F850009A33B /* Target_LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B990724050F850009A33B /* Target_LoginService.m */; };
+		926B990F240511F00009A33B /* LoginAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B990E240511F00009A33B /* LoginAPIManager.m */; };
+		926B991224051BB50009A33B /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B991124051BB50009A33B /* LoginViewModel.m */; };
+		926B991924052D5E0009A33B /* SMSAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B991824052D5E0009A33B /* SMSAPIManager.m */; };
+		926B991C24052D8A0009A33B /* ValidationAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B991B24052D8A0009A33B /* ValidationAPIManager.m */; };
+		926B991F24052D9E0009A33B /* RegisterAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B991E24052D9E0009A33B /* RegisterAPIManager.m */; };
+		926B992224052DAB0009A33B /* ResetAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B992124052DAB0009A33B /* ResetAPIManager.m */; };
+		926B992424061CC90009A33B /* ChangePassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926B992324061CC90009A33B /* ChangePassword.xib */; };
+		926B9927240629F80009A33B /* ChangePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B9926240629F80009A33B /* ChangePasswordView.m */; };
+		926B992A24062C2F0009A33B /* CHangePasswordAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 926B992924062C2F0009A33B /* CHangePasswordAPIManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,12 +64,58 @@
 		9263907D23C82115001CCB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9263907F23C82115001CCB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9263908023C82115001CCB03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		926390B723C832E9001CCB03 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		926390B823C832E9001CCB03 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		926390BA23C85385001CCB03 /* Target_A.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		926390BB23C85385001CCB03 /* Target_A.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		926390C223C85A0D001CCB03 /* CTMediator+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+Login.h"; sourceTree = "<group>"; };
 		926390C323C85A0D001CCB03 /* CTMediator+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Login.m"; sourceTree = "<group>"; };
+		926B98CA23D450870009A33B /* Target_ZYAppContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ZYAppContext.h; sourceTree = "<group>"; };
+		926B98CB23D450870009A33B /* Target_ZYAppContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ZYAppContext.m; sourceTree = "<group>"; };
+		926B98CD23D450F10009A33B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		926B98CE23D450F10009A33B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		926B98D323D463860009A33B /* 手机号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机号.png"; sourceTree = "<group>"; };
+		926B98D423D463860009A33B /* 验证码按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码按钮.png"; sourceTree = "<group>"; };
+		926B98D523D463870009A33B /* QQ登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ登录.png"; sourceTree = "<group>"; };
+		926B98D623D463870009A33B /* 微信登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信登录.png"; sourceTree = "<group>"; };
+		926B98D723D463870009A33B /* 隐藏密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "隐藏密码.png"; sourceTree = "<group>"; };
+		926B98D823D463870009A33B /* 展示密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展示密码.png"; sourceTree = "<group>"; };
+		926B98D923D463870009A33B /* 验证码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码.png"; sourceTree = "<group>"; };
+		926B98DA23D463870009A33B /* 密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码.png"; sourceTree = "<group>"; };
+		926B98DB23D463870009A33B /* 登陆按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆按钮.png"; sourceTree = "<group>"; };
+		926B98DC23D463870009A33B /* 微博登录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微博登录.png"; sourceTree = "<group>"; };
+		926B98E723D463D80009A33B /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		926B98E823D463D80009A33B /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		926B98EA24036D200009A33B /* HYLoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HYLoginView.xib; sourceTree = "<group>"; };
+		926B98EC24036E570009A33B /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginIcon.png; sourceTree = "<group>"; };
+		926B98F124037BAA0009A33B /* RegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
+		926B98F224037BAA0009A33B /* RegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		926B98F424037CD80009A33B /* registerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = registerView.xib; sourceTree = "<group>"; };
+		926B98F6240381230009A33B /* resetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resetView.h; sourceTree = "<group>"; };
+		926B98F7240381230009A33B /* resetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = resetView.m; sourceTree = "<group>"; };
+		926B98F92403812F0009A33B /* resetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = resetView.xib; sourceTree = "<group>"; };
+		926B98FB2403A0CE0009A33B /* Target_Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Login.h; sourceTree = "<group>"; };
+		926B98FC2403A0CE0009A33B /* Target_Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Login.m; sourceTree = "<group>"; };
+		926B98FE2403BD380009A33B /* LoginViewFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewFactory.h; sourceTree = "<group>"; };
+		926B98FF2403BD380009A33B /* LoginViewFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewFactory.m; sourceTree = "<group>"; };
+		926B99022404D7210009A33B /* LoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
+		926B99032404D7210009A33B /* LoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		926B990624050F850009A33B /* Target_LoginService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_LoginService.h; sourceTree = "<group>"; };
+		926B990724050F850009A33B /* Target_LoginService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_LoginService.m; sourceTree = "<group>"; };
+		926B990D240511F00009A33B /* LoginAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginAPIManager.h; sourceTree = "<group>"; };
+		926B990E240511F00009A33B /* LoginAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginAPIManager.m; sourceTree = "<group>"; };
+		926B991024051BB50009A33B /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		926B991124051BB50009A33B /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		926B9916240524990009A33B /* LoginViewModelKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModelKey.h; sourceTree = "<group>"; };
+		926B991724052D5E0009A33B /* SMSAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSAPIManager.h; sourceTree = "<group>"; };
+		926B991824052D5E0009A33B /* SMSAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSAPIManager.m; sourceTree = "<group>"; };
+		926B991A24052D8A0009A33B /* ValidationAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationAPIManager.h; sourceTree = "<group>"; };
+		926B991B24052D8A0009A33B /* ValidationAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationAPIManager.m; sourceTree = "<group>"; };
+		926B991D24052D9E0009A33B /* RegisterAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterAPIManager.h; sourceTree = "<group>"; };
+		926B991E24052D9E0009A33B /* RegisterAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterAPIManager.m; sourceTree = "<group>"; };
+		926B992024052DAB0009A33B /* ResetAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetAPIManager.h; sourceTree = "<group>"; };
+		926B992124052DAB0009A33B /* ResetAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetAPIManager.m; sourceTree = "<group>"; };
+		926B992324061CC90009A33B /* ChangePassword.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePassword.xib; sourceTree = "<group>"; };
+		926B9925240629F80009A33B /* ChangePasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangePasswordView.h; sourceTree = "<group>"; };
+		926B9926240629F80009A33B /* ChangePasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordView.m; sourceTree = "<group>"; };
+		926B992824062C2F0009A33B /* CHangePasswordAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHangePasswordAPIManager.h; sourceTree = "<group>"; };
+		926B992924062C2F0009A33B /* CHangePasswordAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHangePasswordAPIManager.m; sourceTree = "<group>"; };
 		BC3BD629DF56688F975F0D8C /* Pods-HYMusic_Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMusic_Login.debug.xcconfig"; path = "Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login.debug.xcconfig"; sourceTree = "<group>"; };
 		FDA996DE311BBA1E8FBACD7C /* Pods-HYMusic_Login.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYMusic_Login.release.xcconfig"; path = "Target Support Files/Pods-HYMusic_Login/Pods-HYMusic_Login.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,15 +153,18 @@
 		9263906D23C82115001CCB03 /* HYMusic_Login */ = {
 			isa = PBXGroup;
 			children = (
+				926B98D223D462290009A33B /* LoginAssets */,
 				926390B223C82F7D001CCB03 /* HYMusic_Login */,
+				926390C123C85A0D001CCB03 /* Category */,
 				9263906E23C82115001CCB03 /* AppDelegate.h */,
 				9263906F23C82115001CCB03 /* AppDelegate.m */,
 				9263907123C82115001CCB03 /* SceneDelegate.h */,
 				9263907223C82115001CCB03 /* SceneDelegate.m */,
 				9263907423C82115001CCB03 /* ViewController.h */,
 				9263907523C82115001CCB03 /* ViewController.m */,
+				926B98CA23D450870009A33B /* Target_ZYAppContext.h */,
+				926B98CB23D450870009A33B /* Target_ZYAppContext.m */,
 				9263907723C82115001CCB03 /* Main.storyboard */,
-				9263907A23C82115001CCB03 /* Assets.xcassets */,
 				9263907C23C82115001CCB03 /* LaunchScreen.storyboard */,
 				9263907F23C82115001CCB03 /* Info.plist */,
 				9263908023C82115001CCB03 /* main.m */,
@@ -96,13 +175,12 @@
 		926390B223C82F7D001CCB03 /* HYMusic_Login */ = {
 			isa = PBXGroup;
 			children = (
-				926390C623C87431001CCB03 /* LoginAppContext */,
+				926B990C240511C30009A33B /* LoginManager */,
 				926390C723C87431001CCB03 /* LoginController */,
+				926B98D023D453940009A33B /* LoginView */,
+				926B98D123D453940009A33B /* LoginViewModel */,
 				926390C523C87431001CCB03 /* LoginServer */,
-				926390C123C85A0D001CCB03 /* Category */,
 				926390B323C830FC001CCB03 /* Targets */,
-				926390B723C832E9001CCB03 /* AViewController.h */,
-				926390B823C832E9001CCB03 /* AViewController.m */,
 			);
 			path = HYMusic_Login;
 			sourceTree = "<group>";
@@ -110,8 +188,8 @@
 		926390B323C830FC001CCB03 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				926390BA23C85385001CCB03 /* Target_A.h */,
-				926390BB23C85385001CCB03 /* Target_A.m */,
+				926B98FB2403A0CE0009A33B /* Target_Login.h */,
+				926B98FC2403A0CE0009A33B /* Target_Login.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -128,22 +206,90 @@
 		926390C523C87431001CCB03 /* LoginServer */ = {
 			isa = PBXGroup;
 			children = (
+				926B99022404D7210009A33B /* LoginService.h */,
+				926B99032404D7210009A33B /* LoginService.m */,
+				926B990624050F850009A33B /* Target_LoginService.h */,
+				926B990724050F850009A33B /* Target_LoginService.m */,
 			);
 			path = LoginServer;
-			sourceTree = "<group>";
-		};
-		926390C623C87431001CCB03 /* LoginAppContext */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LoginAppContext;
 			sourceTree = "<group>";
 		};
 		926390C723C87431001CCB03 /* LoginController */ = {
 			isa = PBXGroup;
 			children = (
+				926B98CD23D450F10009A33B /* LoginViewController.h */,
+				926B98CE23D450F10009A33B /* LoginViewController.m */,
 			);
 			path = LoginController;
+			sourceTree = "<group>";
+		};
+		926B98D023D453940009A33B /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				926B98E723D463D80009A33B /* LoginView.h */,
+				926B98E823D463D80009A33B /* LoginView.m */,
+				926B98F124037BAA0009A33B /* RegisterView.h */,
+				926B98F224037BAA0009A33B /* RegisterView.m */,
+				926B98F6240381230009A33B /* resetView.h */,
+				926B98F7240381230009A33B /* resetView.m */,
+				926B9925240629F80009A33B /* ChangePasswordView.h */,
+				926B9926240629F80009A33B /* ChangePasswordView.m */,
+				926B98FE2403BD380009A33B /* LoginViewFactory.h */,
+				926B98FF2403BD380009A33B /* LoginViewFactory.m */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		926B98D123D453940009A33B /* LoginViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				926B991024051BB50009A33B /* LoginViewModel.h */,
+				926B991124051BB50009A33B /* LoginViewModel.m */,
+				926B9916240524990009A33B /* LoginViewModelKey.h */,
+			);
+			path = LoginViewModel;
+			sourceTree = "<group>";
+		};
+		926B98D223D462290009A33B /* LoginAssets */ = {
+			isa = PBXGroup;
+			children = (
+				926B98EC24036E570009A33B /* loginIcon.png */,
+				926B98DB23D463870009A33B /* 登陆按钮.png */,
+				926B98DA23D463870009A33B /* 密码.png */,
+				926B98DC23D463870009A33B /* 微博登录.png */,
+				926B98D623D463870009A33B /* 微信登录.png */,
+				926B98D323D463860009A33B /* 手机号.png */,
+				926B98D923D463870009A33B /* 验证码.png */,
+				926B98D423D463860009A33B /* 验证码按钮.png */,
+				926B98D723D463870009A33B /* 隐藏密码.png */,
+				926B98D823D463870009A33B /* 展示密码.png */,
+				926B98D523D463870009A33B /* QQ登录.png */,
+				926B98EA24036D200009A33B /* HYLoginView.xib */,
+				926B98F92403812F0009A33B /* resetView.xib */,
+				926B98F424037CD80009A33B /* registerView.xib */,
+				926B992324061CC90009A33B /* ChangePassword.xib */,
+				9263907A23C82115001CCB03 /* Assets.xcassets */,
+			);
+			path = LoginAssets;
+			sourceTree = "<group>";
+		};
+		926B990C240511C30009A33B /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				926B990D240511F00009A33B /* LoginAPIManager.h */,
+				926B990E240511F00009A33B /* LoginAPIManager.m */,
+				926B991724052D5E0009A33B /* SMSAPIManager.h */,
+				926B991824052D5E0009A33B /* SMSAPIManager.m */,
+				926B991A24052D8A0009A33B /* ValidationAPIManager.h */,
+				926B991B24052D8A0009A33B /* ValidationAPIManager.m */,
+				926B991D24052D9E0009A33B /* RegisterAPIManager.h */,
+				926B991E24052D9E0009A33B /* RegisterAPIManager.m */,
+				926B992024052DAB0009A33B /* ResetAPIManager.h */,
+				926B992124052DAB0009A33B /* ResetAPIManager.m */,
+				926B992824062C2F0009A33B /* CHangePasswordAPIManager.h */,
+				926B992924062C2F0009A33B /* CHangePasswordAPIManager.m */,
+			);
+			path = LoginManager;
 			sourceTree = "<group>";
 		};
 		C800745F7570E8AE064FA03E /* Frameworks */ = {
@@ -222,9 +368,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926B98DE23D463870009A33B /* 验证码按钮.png in Resources */,
+				926B98F524037CD80009A33B /* registerView.xib in Resources */,
+				926B98FA2403812F0009A33B /* resetView.xib in Resources */,
+				926B98E123D463870009A33B /* 隐藏密码.png in Resources */,
+				926B992424061CC90009A33B /* ChangePassword.xib in Resources */,
 				9263907E23C82115001CCB03 /* LaunchScreen.storyboard in Resources */,
 				9263907B23C82115001CCB03 /* Assets.xcassets in Resources */,
+				926B98E023D463870009A33B /* 微信登录.png in Resources */,
+				926B98DF23D463870009A33B /* QQ登录.png in Resources */,
+				926B98E223D463870009A33B /* 展示密码.png in Resources */,
+				926B98E423D463870009A33B /* 密码.png in Resources */,
+				926B98DD23D463870009A33B /* 手机号.png in Resources */,
+				926B98E623D463870009A33B /* 微博登录.png in Resources */,
+				926B98EB24036D200009A33B /* HYLoginView.xib in Resources */,
+				926B98E323D463870009A33B /* 验证码.png in Resources */,
 				9263907923C82115001CCB03 /* Main.storyboard in Resources */,
+				926B98ED24036E570009A33B /* loginIcon.png in Resources */,
+				926B98E523D463870009A33B /* 登陆按钮.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,13 +438,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				926390B923C832E9001CCB03 /* AViewController.m in Sources */,
+				926B991224051BB50009A33B /* LoginViewModel.m in Sources */,
+				926B991C24052D8A0009A33B /* ValidationAPIManager.m in Sources */,
+				926B98F8240381230009A33B /* resetView.m in Sources */,
+				926B990F240511F00009A33B /* LoginAPIManager.m in Sources */,
 				9263907623C82115001CCB03 /* ViewController.m in Sources */,
 				9263907023C82115001CCB03 /* AppDelegate.m in Sources */,
+				926B99042404D7210009A33B /* LoginService.m in Sources */,
+				926B98FD2403A0CE0009A33B /* Target_Login.m in Sources */,
 				9263908123C82115001CCB03 /* main.m in Sources */,
-				926390BC23C85385001CCB03 /* Target_A.m in Sources */,
+				926B991F24052D9E0009A33B /* RegisterAPIManager.m in Sources */,
+				926B990824050F850009A33B /* Target_LoginService.m in Sources */,
+				926B98F324037BAA0009A33B /* RegisterView.m in Sources */,
+				926B992224052DAB0009A33B /* ResetAPIManager.m in Sources */,
+				926B992A24062C2F0009A33B /* CHangePasswordAPIManager.m in Sources */,
+				926B98CF23D450F10009A33B /* LoginViewController.m in Sources */,
 				9263907323C82115001CCB03 /* SceneDelegate.m in Sources */,
+				926B991924052D5E0009A33B /* SMSAPIManager.m in Sources */,
+				926B9927240629F80009A33B /* ChangePasswordView.m in Sources */,
 				926390C423C85A0D001CCB03 /* CTMediator+Login.m in Sources */,
+				926B99002403BD380009A33B /* LoginViewFactory.m in Sources */,
+				926B98E923D463D80009A33B /* LoginView.m in Sources */,
+				926B98CC23D450880009A33B /* Target_ZYAppContext.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CTMediator (Login)
-- (UIViewController *)A_aViewController;
+- (UIViewController *)showLoginViewController;
 @end
 
 NS_ASSUME_NONNULL_END
