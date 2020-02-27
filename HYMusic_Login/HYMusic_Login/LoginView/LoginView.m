@@ -8,7 +8,7 @@
 
 #import "LoginView.h"
 #import "LoginViewFactory.h"
-#import <WHToast.h>
+#import <WHToast/WHToast.h>
 #import "LoginViewModel.h"
 
 //开发环境枚举

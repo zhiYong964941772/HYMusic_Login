@@ -8,7 +8,7 @@
 
 #import "RegisterView.h"
 #import "LoginViewFactory.h"
-#import <WHToast.h>
+#import <WHToast/WHToast.h>
 //开发环境枚举
 typedef NS_ENUM(NSInteger,TextFieldType){
     TextFieldPhone = 0,

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ZYNetworking.h>
+#import <ZYNetworking/ZYNetworking.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LoginService : NSObject <ZYServiceProtocol>
