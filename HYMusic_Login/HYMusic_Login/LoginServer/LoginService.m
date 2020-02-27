@@ -7,7 +7,7 @@
 //
 
 #import "LoginService.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 @interface LoginService()
 @property(nonatomic, strong)NSString *baseURL;
 @property (nonatomic, strong) AFHTTPRequestSerializer *httpRequestSerializer;

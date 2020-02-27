@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewModel.h"
-#import <ZYNetworkingConfiguration.h>
+#import <ZYNetworking/ZYNetworkingConfiguration.h>
 #import "ResetAPIManager.h"
 #import "RegisterAPIManager.h"
 

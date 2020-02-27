@@ -18,7 +18,7 @@
 #import "CHangePasswordAPIManager.h"
 #import "ValidationAPIManager.h"
 #import "LoginViewModel.h"
-#import <WHToast.h>
+#import <WHToast/WHToast.h>
 @interface LoginViewController ()<loginDelegate,registerDelegate,resetDelegate,ZYAPIManagerCallBackDelegate,ChangePasswordDelegate>
 @property(nonatomic ,weak)LoginView *loginView;
 @property(nonatomic ,weak)RegisterView *registerView;
