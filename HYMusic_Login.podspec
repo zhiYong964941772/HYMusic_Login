@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HYMusic_Login"
-  s.version      = "1.0.0"
+  s.version      = "3"
   s.summary      = "HYMusic_Login."
 
   # This description is used to generate tags and improve search results.
