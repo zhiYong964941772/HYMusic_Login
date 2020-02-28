@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "CTMediator+Login.h"
-#import "LoginViewController.h"
 @interface ViewController ()
 
 @end

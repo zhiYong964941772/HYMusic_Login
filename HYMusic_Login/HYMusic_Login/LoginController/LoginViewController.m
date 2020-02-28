@@ -55,10 +55,12 @@
     [self.view addSubview:self.registerView];
     [self.view addSubview:self.loginView];
 
-    [self sendImageValidation];
 
 }
-
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self sendImageValidation];
+}
 #pragma mark -- loginDelegate
 - (void)showRegister{
     [self.loginView setAlpha:0.0];
@@ -106,6 +108,8 @@
     [self.registerView setAlpha:0.0];
     [self.resetView setAlpha:0.0];
     [self.changePasswordView setAlpha:0.0];
+    [self sendImageValidation];
+
 
 }
 - (void)registerUserWithParams:(NSDictionary *)params{
@@ -130,7 +134,10 @@
         [self.loginView configWithData:[manager fetchDataWithReformer:self.loginModel]];
     }
     if ([manager isKindOfClass:[LoginAPIManager class]]) {
-           [WHToast showSuccessWithMessage:@"登录成功" duration:2.0 finishHandler:nil];
+        [WHToast showSuccessWithMessage:@"登录成功" duration:2.0 finishHandler:nil];
+        NSDictionary *data = [manager fetchDataWithReformer:nil][@"data"];
+        [[NSUserDefaults standardUserDefaults] setObject:data[@"token"] forKey:@"DATATOKEN"];
+        [[NSUserDefaults standardUserDefaults]synchronize];
        }
     if ([manager isKindOfClass:[ResetAPIManager class]]) {
         [self showChangeView];
