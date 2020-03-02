@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HYMusic_Login"
-  s.version      = "4"
+  s.version      = "5"
   s.summary      = "HYMusic_Login."
 
   # This description is used to generate tags and improve search results.
@@ -107,9 +107,9 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  #  s.resource_bundles = {
-  #   "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib}"]
-  #  }
+    s.resource_bundles = {
+     "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib}"]
+    }
   # s.preserv_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -132,10 +132,10 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
+
   s.requires_arc = true
   s.dependency "CTMediator"
   s.dependency "WHToast"
-  s.dependency "AFNetworking"
   s.dependency "ZYNetworking"
 
 
