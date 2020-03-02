@@ -133,15 +133,21 @@ typedef NS_ENUM(NSInteger,TextFieldType){
 }
 - (IBAction)wxLogin:(UIButton *)sender {
     [self endEditing:true];
-
+    if ([self.delegate respondsToSelector:@selector(wxLogin)]) {
+        [self.delegate wxLogin];
+    }
 }
 - (IBAction)qqLogin:(UIButton *)sender {
     [self endEditing:true];
-
+    if ([self.delegate respondsToSelector:@selector(qqLogin)]) {
+        [self.delegate qqLogin];
+    }
 }
 - (IBAction)wbLogin:(UIButton *)sender {
     [self endEditing:true];
-
+    if ([self.delegate respondsToSelector:@selector(wbLogin)]) {
+           [self.delegate wbLogin];
+       }
 }
 - (IBAction)touristsLogin:(UIButton *)sender {
     [self endEditing:true];

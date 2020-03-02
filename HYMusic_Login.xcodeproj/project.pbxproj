@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F0775E08644F9510B7B7234 /* Pods_HYMusic_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3019209CFBA6CD2537893D7F /* Pods_HYMusic_Login.framework */; };
+		921018EB240C9EAA00B6CEEE /* CTMediator+HYLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 921018EA240C9EAA00B6CEEE /* CTMediator+HYLogin.m */; };
 		9263907023C82115001CCB03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263906F23C82115001CCB03 /* AppDelegate.m */; };
 		9263907323C82115001CCB03 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263907223C82115001CCB03 /* SceneDelegate.m */; };
 		9263907623C82115001CCB03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9263907523C82115001CCB03 /* ViewController.m */; };
@@ -52,6 +53,8 @@
 
 /* Begin PBXFileReference section */
 		3019209CFBA6CD2537893D7F /* Pods_HYMusic_Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYMusic_Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		921018E9240C9EAA00B6CEEE /* CTMediator+HYLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+HYLogin.h"; sourceTree = "<group>"; };
+		921018EA240C9EAA00B6CEEE /* CTMediator+HYLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+HYLogin.m"; sourceTree = "<group>"; };
 		9263906B23C82115001CCB03 /* HYMusic_Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYMusic_Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9263906E23C82115001CCB03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9263906F23C82115001CCB03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,6 +135,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		921018E5240C9E6800B6CEEE /* LoginCategory */ = {
+			isa = PBXGroup;
+			children = (
+				921018E9240C9EAA00B6CEEE /* CTMediator+HYLogin.h */,
+				921018EA240C9EAA00B6CEEE /* CTMediator+HYLogin.m */,
+			);
+			path = LoginCategory;
+			sourceTree = "<group>";
+		};
 		9263906223C82115001CCB03 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +188,7 @@
 		926390B223C82F7D001CCB03 /* HYMusic_Login */ = {
 			isa = PBXGroup;
 			children = (
+				921018E5240C9E6800B6CEEE /* LoginCategory */,
 				926B990C240511C30009A33B /* LoginManager */,
 				926390C723C87431001CCB03 /* LoginController */,
 				926B98D023D453940009A33B /* LoginView */,
@@ -438,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921018EB240C9EAA00B6CEEE /* CTMediator+HYLogin.m in Sources */,
 				926B991224051BB50009A33B /* LoginViewModel.m in Sources */,
 				926B991C24052D8A0009A33B /* ValidationAPIManager.m in Sources */,
 				926B98F8240381230009A33B /* resetView.m in Sources */,

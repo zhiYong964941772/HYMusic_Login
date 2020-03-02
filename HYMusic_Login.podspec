@@ -107,10 +107,10 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-    s.resource_bundles = {
-      "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib}"]
-    }
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  #  s.resource_bundles = {
+  #   "HYMusic_Login" => ["HYMusic_Login/LoginAssets/**/*.{png,xib}"]
+  #  }
+  # s.preserv_paths = "FilesToSave", "MoreFilesToSave"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

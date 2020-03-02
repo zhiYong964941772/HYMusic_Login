@@ -14,7 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showReset;
 - (void)sendImageValidation;
 - (void)loginWithParams:(NSDictionary *)params;
-
+- (void)qqLogin;
+- (void)wxLogin;
+- (void)wbLogin;
 @end
 @interface LoginView : UIView
 + (instancetype)showLoginView;

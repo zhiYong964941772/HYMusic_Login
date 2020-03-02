@@ -80,6 +80,15 @@
 - (void)loginWithParams:(NSDictionary *)params{
     [self.loginAPIManager loadDataWithParams:params];
 }
+- (void)qqLogin{
+    
+}
+- (void)wxLogin{
+    
+}
+- (void)wbLogin{
+    
+}
 #pragma mark -- resetDelegate
 - (void)hideReset{
     [self.loginView setAlpha:1.0];
